@@ -1,0 +1,25 @@
+{
+    "name": "arashjafari/dump-plus",
+    "description": "Provides variety of formats for dumps information about variables or objects",
+    "keywords": ["dump_plus", "dump-plus", "print_r", "var_dump", "debug", "better", "pretty", "print", "dump", "cli", "console.log", "alert"],
+    "homepage": "https://github.com/arashjafari/dump-plus",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arash Jafari",
+            "email": "arashrj@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "files": [ "./src/functions.php" ],
+        "psr-4":{ 
+            "ArashJafari\\DumpPlus\\": "./src/"
+           
+        }
+    }
+}
