@@ -1,6 +1,6 @@
 <?php
 
-namespace Arashjafari\DumpPlus;
+namespace ArashJafari\DumpPlus;
 
 use ArashJafari\DumpPlus\FileInfo;
 use ArashJafari\DumpPlus\ValueType;
